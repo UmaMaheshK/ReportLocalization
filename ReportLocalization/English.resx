@@ -1,0 +1,987 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Address_Line_1" xml:space="preserve">
+    <value>Address Line 1</value>
+  </data>
+  <data name="Address_Line_2" xml:space="preserve">
+    <value>Address Line 2</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="AUHID_No" xml:space="preserve">
+    <value>AUHID No</value>
+  </data>
+  <data name="Billing_Information" xml:space="preserve">
+    <value>Billing Information</value>
+  </data>
+  <data name="Blood_Group" xml:space="preserve">
+    <value>Blood Group</value>
+  </data>
+  <data name="Chief_Complaints" xml:space="preserve">
+    <value>Chief Complaints</value>
+  </data>
+  <data name="Contact_No" xml:space="preserve">
+    <value>Contact No</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Date_of_Birth" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="Drugs_Prescription" xml:space="preserve">
+    <value>Drugs Prescription</value>
+  </data>
+  <data name="Education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Final_Assessment" xml:space="preserve">
+    <value>Final Assessment</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Home_Phone" xml:space="preserve">
+    <value>Home Phone</value>
+  </data>
+  <data name="Investigations_Advised" xml:space="preserve">
+    <value>Investigations Advised</value>
+  </data>
+  <data name="Marital_Status" xml:space="preserve">
+    <value>Marital Status</value>
+  </data>
+  <data name="Mobile_1" xml:space="preserve">
+    <value>Mobile 1</value>
+  </data>
+  <data name="Mobile_2" xml:space="preserve">
+    <value>Mobile 2</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="National_ID" xml:space="preserve">
+    <value>National ID</value>
+  </data>
+  <data name="Next_To_Kin_Details" xml:space="preserve">
+    <value>Next To Kin Details</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="Office_Phone" xml:space="preserve">
+    <value>Office Phone</value>
+  </data>
+  <data name="OP_Consult_Note" xml:space="preserve">
+    <value>OP Consult Note</value>
+  </data>
+  <data name="Patient_Address" xml:space="preserve">
+    <value>Patient Address</value>
+  </data>
+  <data name="Patient_Category" xml:space="preserve">
+    <value>Patient Category</value>
+  </data>
+  <data name="Patient_Name" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Patient_Registration_Infomation" xml:space="preserve">
+    <value>Patient Registration Infomation</value>
+  </data>
+  <data name="Patient_Type" xml:space="preserve">
+    <value>Patient Type</value>
+  </data>
+  <data name="Payment_Type" xml:space="preserve">
+    <value>Payment Type</value>
+  </data>
+  <data name="Pin_Code" xml:space="preserve">
+    <value>Pin Code</value>
+  </data>
+  <data name="Plan_Of_Care" xml:space="preserve">
+    <value>Plan Of Care</value>
+  </data>
+  <data name="Prescribed_On" xml:space="preserve">
+    <value>Prescribed On</value>
+  </data>
+  <data name="Printed_on" xml:space="preserve">
+    <value>Printed on</value>
+  </data>
+  <data name="Procedures_Advised" xml:space="preserve">
+    <value>Procedures Advised</value>
+  </data>
+  <data name="Provisional_Assessment" xml:space="preserve">
+    <value>Provisional Assessment</value>
+  </data>
+  <data name="Relationship" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Religion" xml:space="preserve">
+    <value>Religion</value>
+  </data>
+  <data name="Socioeconomic_Status" xml:space="preserve">
+    <value>Socioeconomic Status</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Tariff_Category" xml:space="preserve">
+    <value>Tariff Category</value>
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="UID" xml:space="preserve">
+    <value>UID</value>
+  </data>
+  <data name="Aahara" xml:space="preserve">
+    <value>Aahara</value>
+  </data>
+  <data name="Aahara_Shakthi" xml:space="preserve">
+    <value>Aahara Shakthi</value>
+  </data>
+  <data name="Abortions" xml:space="preserve">
+    <value>Abortions</value>
+  </data>
+  <data name="Alcohol" xml:space="preserve">
+    <value>Alcohol</value>
+  </data>
+  <data name="Allergy" xml:space="preserve">
+    <value>Allergy</value>
+  </data>
+  <data name="Analam" xml:space="preserve">
+    <value>Analam</value>
+  </data>
+  <data name="Anubandha_Dosha" xml:space="preserve">
+    <value>Anubandha Dosha</value>
+  </data>
+  <data name="Appetite_Agn" xml:space="preserve">
+    <value>Appetite/Agn</value>
+  </data>
+  <data name="Assessment_Plan_of_Care" xml:space="preserve">
+    <value>Assessment &amp; Plan of Care</value>
+  </data>
+  <data name="Ayurvedic_Assessment" xml:space="preserve">
+    <value>Ayurvedic Assessment</value>
+  </data>
+  <data name="Bala" xml:space="preserve">
+    <value>Bala</value>
+  </data>
+  <data name="Bilirubin" xml:space="preserve">
+    <value>Bilirubin</value>
+  </data>
+  <data name="Blood" xml:space="preserve">
+    <value>Blood</value>
+  </data>
+  <data name="Blood_Pressure" xml:space="preserve">
+    <value>Blood Pressure</value>
+  </data>
+  <data name="BMI" xml:space="preserve">
+    <value>BMI</value>
+  </data>
+  <data name="Breast" xml:space="preserve">
+    <value>Breast</value>
+  </data>
+  <data name="Cardiology" xml:space="preserve">
+    <value>Cardiology</value>
+  </data>
+  <data name="Cerebellar_Signs" xml:space="preserve">
+    <value>Cerebellar Signs</value>
+  </data>
+  <data name="Chew_Tobacco" xml:space="preserve">
+    <value>Chew Tobacco</value>
+  </data>
+  <data name="Cholesterol" xml:space="preserve">
+    <value>Cholesterol</value>
+  </data>
+  <data name="Clinic" xml:space="preserve">
+    <value>Clinic</value>
+  </data>
+  <data name="Comorbid_Conditions" xml:space="preserve">
+    <value>Comorbid Conditions</value>
+  </data>
+  <data name="Dermatology" xml:space="preserve">
+    <value>Dermatology</value>
+  </data>
+  <data name="Desha" xml:space="preserve">
+    <value>Desha</value>
+  </data>
+  <data name="Dialastic" xml:space="preserve">
+    <value>Dialastic</value>
+  </data>
+  <data name="Diet" xml:space="preserve">
+    <value>Diet</value>
+  </data>
+  <data name="Doctor_Name" xml:space="preserve">
+    <value>Doctor Name</value>
+  </data>
+  <data name="Dooshya" xml:space="preserve">
+    <value>Dooshya</value>
+  </data>
+  <data name="Dosha" xml:space="preserve">
+    <value>Dosha</value>
+  </data>
+  <data name="Do_you_currently_drink_coffe_and_or_tea" xml:space="preserve">
+    <value>Do you currently drink  coffe and/or tea?</value>
+  </data>
+  <data name="Do_you_exercise" xml:space="preserve">
+    <value>Do you exercise?</value>
+  </data>
+  <data name="Drug_History" xml:space="preserve">
+    <value>Drug History</value>
+  </data>
+  <data name="ECG" xml:space="preserve">
+    <value>ECG</value>
+  </data>
+  <data name="Endocrinology" xml:space="preserve">
+    <value>Endocrinology</value>
+  </data>
+  <data name="ENT" xml:space="preserve">
+    <value>ENT</value>
+  </data>
+  <data name="Examination_of_the_Cranial_Nerves" xml:space="preserve">
+    <value>Examination of the Cranial Nerves</value>
+  </data>
+  <data name="Examination_of_the_Higher_Functions" xml:space="preserve">
+    <value>Examination of the Higher Functions</value>
+  </data>
+  <data name="Examination_of_the_Motor_Nerves" xml:space="preserve">
+    <value>Examination of the Motor Nerves</value>
+  </data>
+  <data name="Examination_of_the_Reflexes" xml:space="preserve">
+    <value>Examination of the Reflexes</value>
+  </data>
+  <data name="Examination_of_the_Sensory_Nerves" xml:space="preserve">
+    <value>Examination of the Sensory Nerves</value>
+  </data>
+  <data name="Family_History" xml:space="preserve">
+    <value>Family History</value>
+  </data>
+  <data name="Family_Planning_Methods" xml:space="preserve">
+    <value>Family Planning Methods</value>
+  </data>
+  <data name="FEV1" xml:space="preserve">
+    <value>FEV1</value>
+  </data>
+  <data name="FHR" xml:space="preserve">
+    <value>FHR</value>
+  </data>
+  <data name="Final_Diagnosis" xml:space="preserve">
+    <value>Final Diagnosis</value>
+  </data>
+  <data name="Follow_Up" xml:space="preserve">
+    <value>Follow Up</value>
+  </data>
+  <data name="FVC" xml:space="preserve">
+    <value>FVC</value>
+  </data>
+  <data name="Gastrointestinal_System" xml:space="preserve">
+    <value>Gastrointestinal System</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="General_Assessment" xml:space="preserve">
+    <value>General Assessment</value>
+  </data>
+  <data name="General_Instructions" xml:space="preserve">
+    <value>General Instructions</value>
+  </data>
+  <data name="General_Medicine" xml:space="preserve">
+    <value>General Medcine</value>
+  </data>
+  <data name="Genitoreproductive" xml:space="preserve">
+    <value>Genitoreproductive</value>
+  </data>
+  <data name="Genito_Urinary" xml:space="preserve">
+    <value>Genito-Urinary</value>
+  </data>
+  <data name="Glucose" xml:space="preserve">
+    <value>Glucose</value>
+  </data>
+  <data name="GP_Assessment" xml:space="preserve">
+    <value>GP-Assessment</value>
+  </data>
+  <data name="Gravida" xml:space="preserve">
+    <value>Gravida</value>
+  </data>
+  <data name="HDL_Cholesterol" xml:space="preserve">
+    <value>HDL Cholesterol</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>Head</value>
+  </data>
+  <data name="Height_cm" xml:space="preserve">
+    <value>Height(cm)</value>
+  </data>
+  <data name="Hematologic_Lymphatic_System" xml:space="preserve">
+    <value>Hematologic/Lymphatic System</value>
+  </data>
+  <data name="Hematology" xml:space="preserve">
+    <value>Hematology</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="History_of_Present_Illness" xml:space="preserve">
+    <value>History of Present Illness</value>
+  </data>
+  <data name="How_Many_Drinks_Per_Week" xml:space="preserve">
+    <value>How Many Drinks Per Week ?</value>
+  </data>
+  <data name="How_Many_Packs_Per_Day" xml:space="preserve">
+    <value>How Many Packs Per Day?</value>
+  </data>
+  <data name="Hydration" xml:space="preserve">
+    <value>Hydration</value>
+  </data>
+  <data name="If_is_how_Many_cups_Per_Day" xml:space="preserve">
+    <value>If is how Many cups Per Day?</value>
+  </data>
+  <data name="If_quit_when_did_you_quit" xml:space="preserve">
+    <value>If quit  when did you quit</value>
+  </data>
+  <data name="If_quit_when_did_you_quit1" xml:space="preserve">
+    <value>If quit  when did you quit</value>
+  </data>
+  <data name="If_quit_when_did_you_quit2" xml:space="preserve">
+    <value>If quit  when did you quit</value>
+  </data>
+  <data name="If_yes" xml:space="preserve">
+    <value>If yes</value>
+  </data>
+  <data name="Immunisation_History" xml:space="preserve">
+    <value>Immunisation History</value>
+  </data>
+  <data name="Infectious_Diseases" xml:space="preserve">
+    <value>Infectious Diseases</value>
+  </data>
+  <data name="Investigation_Group" xml:space="preserve">
+    <value>Investigation Group</value>
+  </data>
+  <data name="Investigation_Name" xml:space="preserve">
+    <value>Investigation Name</value>
+  </data>
+  <data name="Kala" xml:space="preserve">
+    <value>Kala</value>
+  </data>
+  <data name="Ketones" xml:space="preserve">
+    <value>Ketones</value>
+  </data>
+  <data name="LDL_Cholesterol" xml:space="preserve">
+    <value>LDL Cholesterol</value>
+  </data>
+  <data name="Leucocytes" xml:space="preserve">
+    <value>Leucocytes</value>
+  </data>
+  <data name="Living" xml:space="preserve">
+    <value>Living</value>
+  </data>
+  <data name="LMP" xml:space="preserve">
+    <value>LMP</value>
+  </data>
+  <data name="Lymphatic" xml:space="preserve">
+    <value>Lymphatic</value>
+  </data>
+  <data name="Lymphatic_System" xml:space="preserve">
+    <value>Lymphatic System</value>
+  </data>
+  <data name="Malaria_Test" xml:space="preserve">
+    <value>Malaria Test</value>
+  </data>
+  <data name="MAP" xml:space="preserve">
+    <value>MAP</value>
+  </data>
+  <data name="Meningeal_Signs" xml:space="preserve">
+    <value>Meningeal Signs</value>
+  </data>
+  <data name="Menstrual_History" xml:space="preserve">
+    <value>Menstrual History</value>
+  </data>
+  <data name="Musculoskeletal_System" xml:space="preserve">
+    <value>Musculoskeletal System</value>
+  </data>
+  <data name="Musculo_Skeletal" xml:space="preserve">
+    <value>Musulo-Skeletal</value>
+  </data>
+  <data name="Nails" xml:space="preserve">
+    <value>Nails</value>
+  </data>
+  <data name="Neurologic_System" xml:space="preserve">
+    <value>Neurologic System</value>
+  </data>
+  <data name="Neuro_Psychiatric" xml:space="preserve">
+    <value>Neuro-Psychiatric</value>
+  </data>
+  <data name="Nitrates" xml:space="preserve">
+    <value>Nitrates</value>
+  </data>
+  <data name="Normal_Reference_Range" xml:space="preserve">
+    <value>Normal Reference Range</value>
+  </data>
+  <data name="Obestetrics_Gynecology" xml:space="preserve">
+    <value>Obestetrics/Gynecology</value>
+  </data>
+  <data name="Obstetric_History" xml:space="preserve">
+    <value>Obstetric History</value>
+  </data>
+  <data name="Occupational_History" xml:space="preserve">
+    <value>Occupational History</value>
+  </data>
+  <data name="Ophthamology" xml:space="preserve">
+    <value>Ophthamology</value>
+  </data>
+  <data name="Orthopedic" xml:space="preserve">
+    <value>Orthopedic</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="Others1" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="Other_Recommendations" xml:space="preserve">
+    <value>Other Recommendations</value>
+  </data>
+  <data name="Out_Patient_Consultation_Note" xml:space="preserve">
+    <value>Out Patient Consultation Note</value>
+  </data>
+  <data name="Pain_Score" xml:space="preserve">
+    <value>Pain Score</value>
+  </data>
+  <data name="Para" xml:space="preserve">
+    <value>Para</value>
+  </data>
+  <data name="Past_Medical_History" xml:space="preserve">
+    <value>Past Medical History</value>
+  </data>
+  <data name="Past_Surgical_History" xml:space="preserve">
+    <value>Past Surgical History</value>
+  </data>
+  <data name="Pediatrics" xml:space="preserve">
+    <value>Pediatrics</value>
+  </data>
+  <data name="PEF" xml:space="preserve">
+    <value>PEF</value>
+  </data>
+  <data name="PH" xml:space="preserve">
+    <value>PH</value>
+  </data>
+  <data name="Physical_Examination" xml:space="preserve">
+    <value>Physical Examination</value>
+  </data>
+  <data name="Plan_of_Care1" xml:space="preserve">
+    <value>Plan of Care</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Posture_Weight" xml:space="preserve">
+    <value>Posture/Weight</value>
+  </data>
+  <data name="Prakruthi" xml:space="preserve">
+    <value>Prakruthi</value>
+  </data>
+  <data name="Pregnancy_Test" xml:space="preserve">
+    <value>Pregnancy Test</value>
+  </data>
+  <data name="Protein" xml:space="preserve">
+    <value>Protein</value>
+  </data>
+  <data name="Provisional_Diagnosis" xml:space="preserve">
+    <value>Provisional Diagnosis</value>
+  </data>
+  <data name="Psychiatric" xml:space="preserve">
+    <value>Psychiatric</value>
+  </data>
+  <data name="Pulse_Heart_Rate" xml:space="preserve">
+    <value>Pulse/ Heart Rate</value>
+  </data>
+  <data name="Pulse_Nadi" xml:space="preserve">
+    <value>Pulse/Nadi</value>
+  </data>
+  <data name="Ratio" xml:space="preserve">
+    <value>Ratio</value>
+  </data>
+  <data name="Rectum" xml:space="preserve">
+    <value>Rectum</value>
+  </data>
+  <data name="Rectum1" xml:space="preserve">
+    <value>Rectum</value>
+  </data>
+  <data name="Respiratory" xml:space="preserve">
+    <value>Respiratory</value>
+  </data>
+  <data name="Respiratory_System" xml:space="preserve">
+    <value>Respiratory System</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Rheumatology" xml:space="preserve">
+    <value>Rheumatology</value>
+  </data>
+  <data name="Roga_Disease_Avastha" xml:space="preserve">
+    <value>Roga (Disease) Avastha</value>
+  </data>
+  <data name="Roga_Pariksha" xml:space="preserve">
+    <value>Roga Pariksha</value>
+  </data>
+  <data name="Satwa" xml:space="preserve">
+    <value>Satwa</value>
+  </data>
+  <data name="Sleep_Nidra" xml:space="preserve">
+    <value>Sleep/Nidra</value>
+  </data>
+  <data name="Smoke_Cigarettes" xml:space="preserve">
+    <value>Smoke Cigarettes</value>
+  </data>
+  <data name="Smoking" xml:space="preserve">
+    <value>Smoking</value>
+  </data>
+  <data name="Social_History" xml:space="preserve">
+    <value>Social History</value>
+  </data>
+  <data name="Specific_Gravity" xml:space="preserve">
+    <value>Specific Gravity</value>
+  </data>
+  <data name="Spine" xml:space="preserve">
+    <value>Spine</value>
+  </data>
+  <data name="Spine1" xml:space="preserve">
+    <value>Spine</value>
+  </data>
+  <data name="Spirometry" xml:space="preserve">
+    <value>Spirometry</value>
+  </data>
+  <data name="Spo2" xml:space="preserve">
+    <value>Spo2</value>
+  </data>
+  <data name="Stool_Mala" xml:space="preserve">
+    <value>Stool/Mala</value>
+  </data>
+  <data name="Systalic" xml:space="preserve">
+    <value>Systalic</value>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>Temperature(°F/°C)</value>
+  </data>
+  <data name="Test_Description" xml:space="preserve">
+    <value>Test Description</value>
+  </data>
+  <data name="Tongue_Jihva" xml:space="preserve">
+    <value>Tongue/Jihva</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Triglycerides" xml:space="preserve">
+    <value>Triglycerides</value>
+  </data>
+  <data name="Units" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="Urination_Mut" xml:space="preserve">
+    <value>Urination/Mut</value>
+  </data>
+  <data name="Urine_Test" xml:space="preserve">
+    <value>Urine Test</value>
+  </data>
+  <data name="Urobilinogen" xml:space="preserve">
+    <value>Urobilinogen</value>
+  </data>
+  <data name="Vaya" xml:space="preserve">
+    <value>Vaya</value>
+  </data>
+  <data name="VC" xml:space="preserve">
+    <value>VC</value>
+  </data>
+  <data name="Vitals_and_Test_Results" xml:space="preserve">
+    <value>Vitals and  Test Results</value>
+  </data>
+  <data name="Weight_kg" xml:space="preserve">
+    <value>Weight(kg)</value>
+  </data>
+  <data name="Batch_No" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="Bill_Amount" xml:space="preserve">
+    <value>Bill Amount</value>
+  </data>
+  <data name="Bill_Date" xml:space="preserve">
+    <value>Bill Date</value>
+  </data>
+  <data name="Bill_No" xml:space="preserve">
+    <value>Bill No</value>
+  </data>
+  <data name="Case_Type" xml:space="preserve">
+    <value>Case Type</value>
+  </data>
+  <data name="CENTER_NAME" xml:space="preserve">
+    <value>Center Name</value>
+  </data>
+  <data name="Consultation_Details" xml:space="preserve">
+    <value>Consultation Details </value>
+  </data>
+  <data name="Date_Time" xml:space="preserve">
+    <value>Date Time</value>
+  </data>
+  <data name="Discount_" xml:space="preserve">
+    <value>Discount%</value>
+  </data>
+  <data name="Discount_Amount" xml:space="preserve">
+    <value>Discount Amount</value>
+  </data>
+  <data name="Discount_Amount1" xml:space="preserve">
+    <value>Discount Amount</value>
+  </data>
+  <data name="Discount_Amount2" xml:space="preserve">
+    <value>Discount Amount</value>
+  </data>
+  <data name="DOCTOR" xml:space="preserve">
+    <value>DOCTOR</value>
+  </data>
+  <data name="Doctor_Consultation" xml:space="preserve">
+    <value>Doctor Consultation</value>
+  </data>
+  <data name="Due_Amount" xml:space="preserve">
+    <value>Due Amount</value>
+  </data>
+  <data name="Due_Paid_Amount" xml:space="preserve">
+    <value>Due Paid Amount</value>
+  </data>
+  <data name="Expiry_Date" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="Free_Quantity" xml:space="preserve">
+    <value>Free Quantity</value>
+  </data>
+  <data name="Gross_Amount" xml:space="preserve">
+    <value>Gross Amount</value>
+  </data>
+  <data name="Material_Name" xml:space="preserve">
+    <value>Material Name</value>
+  </data>
+  <data name="Maximum_Level" xml:space="preserve">
+    <value>Maximum Level</value>
+  </data>
+  <data name="Minimum_Level" xml:space="preserve">
+    <value>Minimum Level</value>
+  </data>
+  <data name="Net_Amount" xml:space="preserve">
+    <value>Net Amount</value>
+  </data>
+  <data name="Net_Amount1" xml:space="preserve">
+    <value>Net Amount</value>
+  </data>
+  <data name="Packages" xml:space="preserve">
+    <value>Packages</value>
+  </data>
+  <data name="Paid_Amount" xml:space="preserve">
+    <value>Paid Amount</value>
+  </data>
+  <data name="Patient_Category1" xml:space="preserve">
+    <value>Patient Category</value>
+  </data>
+  <data name="Patient_Pay_Amount" xml:space="preserve">
+    <value>Patient Pay Amount</value>
+  </data>
+  <data name="Patient_Type1" xml:space="preserve">
+    <value>Patient Type</value>
+  </data>
+  <data name="Payable_Amount" xml:space="preserve">
+    <value>Payable Amount</value>
+  </data>
+  <data name="Payment_Type1" xml:space="preserve">
+    <value>Payment Type</value>
+  </data>
+  <data name="Pharmacy_No" xml:space="preserve">
+    <value>Pharmacy No</value>
+  </data>
+  <data name="Physical_Stock" xml:space="preserve">
+    <value>Physical Stock</value>
+  </data>
+  <data name="Purchase_Price" xml:space="preserve">
+    <value>Purchase Price</value>
+  </data>
+  <data name="Purchase_Unit" xml:space="preserve">
+    <value>Purchase Unit</value>
+  </data>
+  <data name="QOH" xml:space="preserve">
+    <value>QOH </value>
+  </data>
+  <data name="QTY" xml:space="preserve">
+    <value>QTY</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="Rate_Per_Unit" xml:space="preserve">
+    <value>Rate Per Unit</value>
+  </data>
+  <data name="Referal_Doctor" xml:space="preserve">
+    <value>Referal Doctor</value>
+  </data>
+  <data name="ROL" xml:space="preserve">
+    <value>ROL</value>
+  </data>
+  <data name="Sale_Unit" xml:space="preserve">
+    <value>Sale Unit</value>
+  </data>
+  <data name="Service_Amount" xml:space="preserve">
+    <value>Service Amount</value>
+  </data>
+  <data name="Service_Amount1" xml:space="preserve">
+    <value>Service Amount</value>
+  </data>
+  <data name="Service_Name" xml:space="preserve">
+    <value>Service Name</value>
+  </data>
+  <data name="Sl_No" xml:space="preserve">
+    <value>Sl.No</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Stock_Difference" xml:space="preserve">
+    <value>Stock Difference</value>
+  </data>
+  <data name="Tariff_Category1" xml:space="preserve">
+    <value>Tariff Category</value>
+  </data>
+  <data name="Tax_" xml:space="preserve">
+    <value>Tax%</value>
+  </data>
+  <data name="Total1" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Total_Amount" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="Total_Qty" xml:space="preserve">
+    <value>Total Qty</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Unit_Purchase_Price" xml:space="preserve">
+    <value>Unit Purchase Price</value>
+  </data>
+  <data name="Visit_Type" xml:space="preserve">
+    <value>Visit Type</value>
+  </data>
+  <data name="All_Centers" xml:space="preserve">
+    <value>All Centers</value>
+  </data>
+  <data name="Consolidated_OP_Billing_Report" xml:space="preserve">
+    <value>Consolidated OP Billing Report</value>
+  </data>
+  <data name="for_" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="of" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="Pharmacist" xml:space="preserve">
+    <value>Pharmacist</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="OP_Due_Collection" xml:space="preserve">
+    <value>OP Due Collection</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Reference_Sheet_No" xml:space="preserve">
+    <value>Reference Sheet No</value>
+  </data>
+  <data name="Stock_Taking_Date" xml:space="preserve">
+    <value>Stock Taking Date</value>
+  </data>
+  <data name="Stock_Taking_No" xml:space="preserve">
+    <value>Stock Taking No</value>
+  </data>
+  <data name="Stock_Taking_Report" xml:space="preserve">
+    <value>Stock Taking Report</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="END_OF_REPORT" xml:space="preserve">
+    <value>END OF REPORT</value>
+  </data>
+  <data name="Normal_Reference_Range1" xml:space="preserve">
+    <value>Normal Reference Range</value>
+  </data>
+  <data name="Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="Result1" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Result_Date" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="Result_No" xml:space="preserve">
+    <value>Result No</value>
+  </data>
+  <data name="ROLE_DESC" xml:space="preserve">
+    <value>ROLE_DESC</value>
+  </data>
+  <data name="Sample_No" xml:space="preserve">
+    <value>Sample No</value>
+  </data>
+  <data name="SERVICESUBGRP_NAME" xml:space="preserve">
+    <value>SERVICESUBGRP_NAME</value>
+  </data>
+  <data name="SERVICE_NAME1" xml:space="preserve">
+    <value>SERVICE_NAME</value>
+  </data>
+  <data name="Test_Description1" xml:space="preserve">
+    <value>Test Description</value>
+  </data>
+  <data name="Units1" xml:space="preserve">
+    <value>Units</value>
+  </data>
+</root>

@@ -1,0 +1,939 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>पता</value>
+  </data>
+  <data name="Address_Line_1" xml:space="preserve">
+    <value>पता पंक्ति 1</value>
+  </data>
+  <data name="Address_Line_2" xml:space="preserve">
+    <value>पता पंक्ति 2</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>उम्र</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>क्षेत्र</value>
+  </data>
+  <data name="AUHID_No" xml:space="preserve">
+    <value>AUHID संख्या</value>
+  </data>
+  <data name="Billing_Information" xml:space="preserve">
+    <value>बिलिंग जानकारी</value>
+  </data>
+  <data name="Blood_Group" xml:space="preserve">
+    <value>रक्त समूह</value>
+  </data>
+  <data name="Contact_No" xml:space="preserve">
+    <value>संपर्क नहीं</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>देश</value>
+  </data>
+  <data name="Date_of_Birth" xml:space="preserve">
+    <value>जन्म तिथि</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>जिला</value>
+  </data>
+  <data name="Education" xml:space="preserve">
+    <value>शिक्षा</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>ई-मेल</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>फ़ैक्स</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>लिंग</value>
+  </data>
+  <data name="Home_Phone" xml:space="preserve">
+    <value>घर का फोन</value>
+  </data>
+  <data name="Marital_Status" xml:space="preserve">
+    <value>वैवाहिक स्थिति</value>
+  </data>
+  <data name="Mobile_1" xml:space="preserve">
+    <value>मोबाइल 1</value>
+  </data>
+  <data name="Mobile_2" xml:space="preserve">
+    <value>मोबाइल 2</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>राष्ट्रीयता</value>
+  </data>
+  <data name="National_ID" xml:space="preserve">
+    <value>आधार संख्या</value>
+  </data>
+  <data name="Next_To_Kin_Details" xml:space="preserve">
+    <value>परिजनों के आगे विवरण</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>व्यवसाय</value>
+  </data>
+  <data name="Office_Phone" xml:space="preserve">
+    <value>कार्यालय फ़ोन</value>
+  </data>
+  <data name="Patient_Address" xml:space="preserve">
+    <value>रोगी पता</value>
+  </data>
+  <data name="Patient_Category" xml:space="preserve">
+    <value>रोगी श्रेणी</value>
+  </data>
+  <data name="Patient_Name" xml:space="preserve">
+    <value>रोगी का नाम</value>
+  </data>
+  <data name="Patient_Registration_Infomation" xml:space="preserve">
+    <value>रोगी पंजीकरण जानकारी</value>
+  </data>
+  <data name="Patient_Type" xml:space="preserve">
+    <value>रोगी प्रकार</value>
+  </data>
+  <data name="Payment_Type" xml:space="preserve">
+    <value>भुगतान प्रकार</value>
+  </data>
+  <data name="Pin_Code" xml:space="preserve">
+    <value>पिन कोड</value>
+  </data>
+  <data name="Relationship" xml:space="preserve">
+    <value>संबंध</value>
+  </data>
+  <data name="Religion" xml:space="preserve">
+    <value>धर्म</value>
+  </data>
+  <data name="Socioeconomic_Status" xml:space="preserve">
+    <value>सामाजिक-आर्थिक स्थिति</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>राज्य</value>
+  </data>
+  <data name="Tariff_Category" xml:space="preserve">
+    <value>टैरिफ श्रेणी</value>
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>शहर</value>
+  </data>
+  <data name="UID" xml:space="preserve">
+    <value>यूआईडी</value>
+  </data>
+  <data name="Chief_Complaints" xml:space="preserve">
+    <value>मुख्य शिकायतें</value>
+  </data>
+  <data name="Drugs_Prescription" xml:space="preserve">
+    <value>दवाओं के नुस्खे</value>
+  </data>
+  <data name="Final_Assessment" xml:space="preserve">
+    <value>अंतिम आकलन</value>
+  </data>
+  <data name="Investigations_Advised" xml:space="preserve">
+    <value>परीक्षण सलाह</value>
+  </data>
+  <data name="OP_Consult_Note" xml:space="preserve">
+    <value>बाह्य परामर्श पत्र</value>
+  </data>
+  <data name="Plan_Of_Care" xml:space="preserve">
+    <value>देखभाल की योजना</value>
+  </data>
+  <data name="Prescribed_On" xml:space="preserve">
+    <value>निर्धारित तारीख</value>
+  </data>
+  <data name="Printed_on" xml:space="preserve">
+    <value>मुद्रित दिन</value>
+  </data>
+  <data name="Procedures_Advised" xml:space="preserve">
+    <value>प्रक्रियाओं का सलाह</value>
+  </data>
+  <data name="Provisional_Assessment" xml:space="preserve">
+    <value>प्राथमिक आकलन</value>
+  </data>
+  <data name="Aahara" xml:space="preserve">
+    <value>भोजन</value>
+  </data>
+  <data name="Aahara_Shakthi" xml:space="preserve">
+    <value>भोजन शक्ति</value>
+  </data>
+  <data name="Abortions" xml:space="preserve">
+    <value>गर्भपात</value>
+  </data>
+  <data name="Alcohol" xml:space="preserve">
+    <value>शराब</value>
+  </data>
+  <data name="Allergy" xml:space="preserve">
+    <value>एलर्जी</value>
+  </data>
+  <data name="Analam" xml:space="preserve">
+    <value>अनलं</value>
+  </data>
+  <data name="Anubandha_Dosha" xml:space="preserve">
+    <value>अनुभूध दोषा</value>
+  </data>
+  <data name="Appetite_Agn" xml:space="preserve">
+    <value>भूख</value>
+  </data>
+  <data name="Assessment_Plan_of_Care" xml:space="preserve">
+    <value>मूल्यांकन एवं देखभाल की योजना</value>
+  </data>
+  <data name="Ayurvedic_Assessment" xml:space="preserve">
+    <value>आयुर्वेदिक आकलन</value>
+  </data>
+  <data name="Bala" xml:space="preserve">
+    <value>बाला</value>
+  </data>
+  <data name="Bilirubin" xml:space="preserve">
+    <value>बिलीरूबिन</value>
+  </data>
+  <data name="Blood" xml:space="preserve">
+    <value>रक्त</value>
+  </data>
+  <data name="Blood_Pressure" xml:space="preserve">
+    <value>रक्त दबाव</value>
+  </data>
+  <data name="BMI" xml:space="preserve">
+    <value>बीएमआई</value>
+  </data>
+  <data name="Breast" xml:space="preserve">
+    <value>स्तन</value>
+  </data>
+  <data name="Cardiology" xml:space="preserve">
+    <value>कार्डियोलोजी</value>
+  </data>
+  <data name="Cerebellar_Signs" xml:space="preserve">
+    <value>अनुमस्तिष्क के संकेत</value>
+  </data>
+  <data name="Chew_Tobacco" xml:space="preserve">
+    <value>तंबाकू चबाना</value>
+  </data>
+  <data name="Cholesterol" xml:space="preserve">
+    <value>कोलेस्ट्रॉल</value>
+  </data>
+  <data name="Clinic" xml:space="preserve">
+    <value>चिकित्सालय</value>
+  </data>
+  <data name="Comorbid_Conditions" xml:space="preserve">
+    <value>सहरुग्ण परिस्थितियां</value>
+  </data>
+  <data name="Dermatology" xml:space="preserve">
+    <value>त्वचा विज्ञान</value>
+  </data>
+  <data name="Desha" xml:space="preserve">
+    <value>देश</value>
+  </data>
+  <data name="Dialastic" xml:space="preserve">
+    <value>दिअलिस्टिक</value>
+  </data>
+  <data name="Diet" xml:space="preserve">
+    <value>आहार</value>
+  </data>
+  <data name="Doctor_Name" xml:space="preserve">
+    <value>डॉक्टर का नाम</value>
+  </data>
+  <data name="Dooshya" xml:space="preserve">
+    <value>दूश्य</value>
+  </data>
+  <data name="Dosha" xml:space="preserve">
+    <value>दोष</value>
+  </data>
+  <data name="Do_you_currently_drink_coffe_and_or_tea" xml:space="preserve">
+    <value>क्या आप वर्तमान में कॉफी और / या चाय पीते हैं?</value>
+  </data>
+  <data name="Do_you_exercise" xml:space="preserve">
+    <value>आप व्यायाम करते हैं?</value>
+  </data>
+  <data name="Drug_History" xml:space="preserve">
+    <value>दवा इतिहास</value>
+  </data>
+  <data name="ECG" xml:space="preserve">
+    <value>ईसीजी</value>
+  </data>
+  <data name="Endocrinology" xml:space="preserve">
+    <value>इन्डोकिरनोलाजी</value>
+  </data>
+  <data name="ENT" xml:space="preserve">
+    <value>ईएनटी</value>
+  </data>
+  <data name="Examination_of_the_Cranial_Nerves" xml:space="preserve">
+    <value>कपाल नसों की परीक्षा</value>
+  </data>
+  <data name="Examination_of_the_Higher_Functions" xml:space="preserve">
+    <value>अधिक कार्यों की परीक्षा</value>
+  </data>
+  <data name="Examination_of_the_Motor_Nerves" xml:space="preserve">
+    <value>मोटर तंत्रिकाओं की परीक्षा</value>
+  </data>
+  <data name="Examination_of_the_Reflexes" xml:space="preserve">
+    <value>सजगता की परीक्षा</value>
+  </data>
+  <data name="Examination_of_the_Sensory_Nerves" xml:space="preserve">
+    <value>संवेदी तंत्रिकाओं की परीक्षा</value>
+  </data>
+  <data name="Family_History" xml:space="preserve">
+    <value>परिवार के इतिहास</value>
+  </data>
+  <data name="Family_Planning_Methods" xml:space="preserve">
+    <value>परिवार नियोजन की विधियों</value>
+  </data>
+  <data name="FEV1" xml:space="preserve">
+    <value>एफईवी 1</value>
+  </data>
+  <data name="FHR" xml:space="preserve">
+    <value>एफएचआर</value>
+  </data>
+  <data name="Final_Diagnosis" xml:space="preserve">
+    <value>अंतिम निदान</value>
+  </data>
+  <data name="Follow_Up" xml:space="preserve">
+    <value>अनुसरण करो</value>
+  </data>
+  <data name="FVC" xml:space="preserve">
+    <value>एफवीसी</value>
+  </data>
+  <data name="Gastrointestinal_System" xml:space="preserve">
+    <value>जठरांत्र प्रणाली</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="General_Assessment" xml:space="preserve">
+    <value>सामान्य आकलन</value>
+  </data>
+  <data name="General_Instructions" xml:space="preserve">
+    <value>सामान्य निर्देश</value>
+  </data>
+  <data name="General_Medicine" xml:space="preserve">
+    <value>आम दवाई</value>
+  </data>
+  <data name="Genitoreproductive" xml:space="preserve">
+    <value>जेनिटो प्रजनन</value>
+  </data>
+  <data name="Genito_Urinary" xml:space="preserve">
+    <value>जेनिटोयुरनेरी</value>
+  </data>
+  <data name="Glucose" xml:space="preserve">
+    <value>ग्लूकोज</value>
+  </data>
+  <data name="GP_Assessment" xml:space="preserve">
+    <value>जीपी-आकलन</value>
+  </data>
+  <data name="Gravida" xml:space="preserve">
+    <value>ग्राविदा</value>
+  </data>
+  <data name="HDL_Cholesterol" xml:space="preserve">
+    <value>एचडीएल कोलेस्ट्रॉल</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>सिर</value>
+  </data>
+  <data name="Height_cm" xml:space="preserve">
+    <value>ऊंचाई (सेंटिमीटर)</value>
+  </data>
+  <data name="Hematologic_Lymphatic_System" xml:space="preserve">
+    <value>हेमेटोलोगिक / लिम्फेटिक सिस्टम</value>
+  </data>
+  <data name="Hematology" xml:space="preserve">
+    <value>रुधिर</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>इतिहास</value>
+  </data>
+  <data name="History_of_Present_Illness" xml:space="preserve">
+    <value>मौजूद बीमारी का इतिहास</value>
+  </data>
+  <data name="How_Many_Drinks_Per_Week" xml:space="preserve">
+    <value>प्रति सप्ताह कितनी बार?</value>
+  </data>
+  <data name="How_Many_Packs_Per_Day" xml:space="preserve">
+    <value>प्रति दिन कितने पैक?</value>
+  </data>
+  <data name="Hydration" xml:space="preserve">
+    <value>जलयोजन</value>
+  </data>
+  <data name="If_is_how_Many_cups_Per_Day" xml:space="preserve">
+    <value>प्रति दिन कितने कप</value>
+  </data>
+  <data name="If_quit_when_did_you_quit" xml:space="preserve">
+    <value>यदि छोड़ दिया, तो आपने कब छोड़ा?</value>
+  </data>
+  <data name="If_yes" xml:space="preserve">
+    <value>यदि हाँ, तो</value>
+  </data>
+  <data name="Immunisation_History" xml:space="preserve">
+    <value>टीकाकरण इतिहास</value>
+  </data>
+  <data name="Infectious_Diseases" xml:space="preserve">
+    <value>संक्रामक रोगों</value>
+  </data>
+  <data name="Investigation_Group" xml:space="preserve">
+    <value>जांच समूह</value>
+  </data>
+  <data name="Investigation_Name" xml:space="preserve">
+    <value>जांच के नाम</value>
+  </data>
+  <data name="Kala" xml:space="preserve">
+    <value>काला</value>
+  </data>
+  <data name="Ketones" xml:space="preserve">
+    <value>कीटोन्स</value>
+  </data>
+  <data name="LDL_Cholesterol" xml:space="preserve">
+    <value>एलडीएल कोलेस्ट्रॉल</value>
+  </data>
+  <data name="Leucocytes" xml:space="preserve">
+    <value>ल्यूकोसाइट</value>
+  </data>
+  <data name="Living" xml:space="preserve">
+    <value>जहाँ रहते हैं</value>
+  </data>
+  <data name="LMP" xml:space="preserve">
+    <value>एलएमपी</value>
+  </data>
+  <data name="Lymphatic" xml:space="preserve">
+    <value>लसीका</value>
+  </data>
+  <data name="Lymphatic_System" xml:space="preserve">
+    <value>लसीका प्रणाली</value>
+  </data>
+  <data name="Malaria_Test" xml:space="preserve">
+    <value>मलेरिया परीक्षण</value>
+  </data>
+  <data name="MAP" xml:space="preserve">
+    <value>एमएपी</value>
+  </data>
+  <data name="Meningeal_Signs" xml:space="preserve">
+    <value>मेनिंगियल साइन्स</value>
+  </data>
+  <data name="Menstrual_History" xml:space="preserve">
+    <value>मासिक धर्म इतिहास</value>
+  </data>
+  <data name="Musculoskeletal_System" xml:space="preserve">
+    <value>हाड़ पिंजर प्रणाली</value>
+  </data>
+  <data name="Musculo_Skeletal" xml:space="preserve">
+    <value>पेशीय-कंकाल</value>
+  </data>
+  <data name="Nails" xml:space="preserve">
+    <value>नाखून</value>
+  </data>
+  <data name="Neurologic_System" xml:space="preserve">
+    <value>न्यूरोलॉजिक सिस्टम</value>
+  </data>
+  <data name="Neuro_Psychiatric" xml:space="preserve">
+    <value>तंत्रिका-मनोरोग विज्ञान</value>
+  </data>
+  <data name="Nitrates" xml:space="preserve">
+    <value>नाइट्रेट</value>
+  </data>
+  <data name="Normal_Reference_Range" xml:space="preserve">
+    <value>सामान्य संदर्भ रेंज</value>
+  </data>
+  <data name="Obestetrics_Gynecology" xml:space="preserve">
+    <value>प्रसूति-विज्ञान/प्रसूतिशास्र</value>
+  </data>
+  <data name="Obstetric_History" xml:space="preserve">
+    <value>प्रसूति इतिहास</value>
+  </data>
+  <data name="Occupational_History" xml:space="preserve">
+    <value>व्यावसायिक इतिहास</value>
+  </data>
+  <data name="Ophthamology" xml:space="preserve">
+    <value>नेत्र विज्ञान</value>
+  </data>
+  <data name="Orthopedic" xml:space="preserve">
+    <value>आर्थोपेडिक</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>अन्य</value>
+  </data>
+  <data name="Others1" xml:space="preserve">
+    <value>दूसरों</value>
+  </data>
+  <data name="Other_Recommendations" xml:space="preserve">
+    <value>अन्य सिफारिशें</value>
+  </data>
+  <data name="Out_Patient_Consultation_Note" xml:space="preserve">
+    <value>बाह्य रोगी परामर्श पत्र</value>
+  </data>
+  <data name="Pain_Score" xml:space="preserve">
+    <value>दर्द स्कोर</value>
+  </data>
+  <data name="Para" xml:space="preserve">
+    <value>पैरा</value>
+  </data>
+  <data name="Past_Medical_History" xml:space="preserve">
+    <value>पिछले चिकित्सा के इतिहास</value>
+  </data>
+  <data name="Past_Surgical_History" xml:space="preserve">
+    <value>पिछले शल्य चिकित्सा इतिहास</value>
+  </data>
+  <data name="Pediatrics" xml:space="preserve">
+    <value>बाल रोग</value>
+  </data>
+  <data name="PEF" xml:space="preserve">
+    <value>पीईएफ़</value>
+  </data>
+  <data name="PH" xml:space="preserve">
+    <value>पीएच</value>
+  </data>
+  <data name="Physical_Examination" xml:space="preserve">
+    <value>शारीरिक परीक्षा</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>स्थिति</value>
+  </data>
+  <data name="Posture_Weight" xml:space="preserve">
+    <value>आसन/वजन</value>
+  </data>
+  <data name="Prakruthi" xml:space="preserve">
+    <value>प्राक्रुथी</value>
+  </data>
+  <data name="Pregnancy_Test" xml:space="preserve">
+    <value>गर्भावस्था परीक्षण</value>
+  </data>
+  <data name="Protein" xml:space="preserve">
+    <value>प्रोटीन</value>
+  </data>
+  <data name="Provisional_Diagnosis" xml:space="preserve">
+    <value>अनंतिम निदान</value>
+  </data>
+  <data name="Psychiatric" xml:space="preserve">
+    <value>मनोरोग</value>
+  </data>
+  <data name="Pulse_Heart_Rate" xml:space="preserve">
+    <value>पल्स / दिल दर</value>
+  </data>
+  <data name="Pulse_Nadi" xml:space="preserve">
+    <value>पल्स / नाडी</value>
+  </data>
+  <data name="Ratio" xml:space="preserve">
+    <value>अनुपात</value>
+  </data>
+  <data name="Rectum" xml:space="preserve">
+    <value>मलाशय</value>
+  </data>
+  <data name="Rectum1" xml:space="preserve">
+    <value>मलाशय</value>
+  </data>
+  <data name="Respiratory" xml:space="preserve">
+    <value>श्वसन</value>
+  </data>
+  <data name="Respiratory_System" xml:space="preserve">
+    <value>श्वसन प्रणाली</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>परिणाम</value>
+  </data>
+  <data name="Rheumatology" xml:space="preserve">
+    <value>रूमेटोलॉजी</value>
+  </data>
+  <data name="Roga_Disease_Avastha" xml:space="preserve">
+    <value>रोगा (रोग) अवस्थ</value>
+  </data>
+  <data name="Roga_Pariksha" xml:space="preserve">
+    <value>रोग Pariksha</value>
+  </data>
+  <data name="Satwa" xml:space="preserve">
+    <value>सत्व</value>
+  </data>
+  <data name="Sleep_Nidra" xml:space="preserve">
+    <value>नींद/निद्रा</value>
+  </data>
+  <data name="Smoke_Cigarettes" xml:space="preserve">
+    <value>सिगरेट धूम्रपान</value>
+  </data>
+  <data name="Smoking" xml:space="preserve">
+    <value>धूम्रपान</value>
+  </data>
+  <data name="Social_History" xml:space="preserve">
+    <value>सामाजिक इतिहास</value>
+  </data>
+  <data name="Specific_Gravity" xml:space="preserve">
+    <value>विशिष्ट गुरुत्व</value>
+  </data>
+  <data name="Spine" xml:space="preserve">
+    <value>रीढ़ की हड्डी</value>
+  </data>
+  <data name="Spine1" xml:space="preserve">
+    <value>रीढ़ की हड्डी</value>
+  </data>
+  <data name="Spirometry" xml:space="preserve">
+    <value>स्पाइरोमीटरी</value>
+  </data>
+  <data name="Spo2" xml:space="preserve">
+    <value>एस पी ओ 2</value>
+  </data>
+  <data name="Stool_Mala" xml:space="preserve">
+    <value>स्टूल/मल</value>
+  </data>
+  <data name="Systalic" xml:space="preserve">
+    <value>सिस्टोलिक</value>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>तापमान (°एफ /°सी)</value>
+  </data>
+  <data name="Test_Description" xml:space="preserve">
+    <value>विवरण का परीक्षण करें</value>
+  </data>
+  <data name="Tongue_Jihva" xml:space="preserve">
+    <value>जीभ</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>कुल</value>
+  </data>
+  <data name="Triglycerides" xml:space="preserve">
+    <value>ट्राइग्लिसराइड्स</value>
+  </data>
+  <data name="Units" xml:space="preserve">
+    <value>इकाइयों</value>
+  </data>
+  <data name="Urination_Mut" xml:space="preserve">
+    <value>पेशाब /मूत्र</value>
+  </data>
+  <data name="Urine_Test" xml:space="preserve">
+    <value>मूत्र परीक्षण</value>
+  </data>
+  <data name="Urobilinogen" xml:space="preserve">
+    <value>यूरोबायलिनोजेन</value>
+  </data>
+  <data name="Vaya" xml:space="preserve">
+    <value>ऊर्जा बचत</value>
+  </data>
+  <data name="VC" xml:space="preserve">
+    <value>वीसी</value>
+  </data>
+  <data name="Vitals_and_Test_Results" xml:space="preserve">
+    <value>नब्ज और परीक्षण के परिणाम</value>
+  </data>
+  <data name="Weight_kg" xml:space="preserve">
+    <value>वजन (किलो)</value>
+  </data>
+  <data name="Printed" xml:space="preserve">
+    <value>मुद्रित</value>
+  </data>
+  <data name="Batch_No" xml:space="preserve">
+    <value>बैच संख्या</value>
+  </data>
+  <data name="Bill_Date" xml:space="preserve">
+    <value>बिल की तिथि</value>
+  </data>
+  <data name="Bill_No" xml:space="preserve">
+    <value>बील संख्या</value>
+  </data>
+  <data name="CENTER_NAME" xml:space="preserve">
+    <value>केंद्र का नाम</value>
+  </data>
+  <data name="Date_Time" xml:space="preserve">
+    <value>दिनांक &amp; समय</value>
+  </data>
+  <data name="Discount_" xml:space="preserve">
+    <value>छूट %</value>
+  </data>
+  <data name="Discount_Amount" xml:space="preserve">
+    <value>छूट राशि</value>
+  </data>
+  <data name="Discount_Amount1" xml:space="preserve">
+    <value>छूट राशि</value>
+  </data>
+  <data name="DOCTOR" xml:space="preserve">
+    <value>डॉक्टर</value>
+  </data>
+  <data name="Due_Amount" xml:space="preserve">
+    <value>प्राप्य राशि</value>
+  </data>
+  <data name="Expiry_Date" xml:space="preserve">
+    <value>समाप्ति दिनांक</value>
+  </data>
+  <data name="Free_Quantity" xml:space="preserve">
+    <value>नि: शुल्क मात्रा</value>
+  </data>
+  <data name="Gross_Amount" xml:space="preserve">
+    <value>स्थूल राशि</value>
+  </data>
+  <data name="Material_Name" xml:space="preserve">
+    <value>सामग्री का नाम</value>
+  </data>
+  <data name="Maximum_Level" xml:space="preserve">
+    <value>अधिकतम स्तर</value>
+  </data>
+  <data name="Minimum_Level" xml:space="preserve">
+    <value>न्यूनतम स्तर</value>
+  </data>
+  <data name="Net_Amount" xml:space="preserve">
+    <value>शुद्ध राशि</value>
+  </data>
+  <data name="Paid_Amount" xml:space="preserve">
+    <value>भुगतान राशि</value>
+  </data>
+  <data name="Patient_Pay_Amount" xml:space="preserve">
+    <value>रोगी देय राशि</value>
+  </data>
+  <data name="Payable_Amount" xml:space="preserve">
+    <value>देय राशि</value>
+  </data>
+  <data name="Pharmacy_No" xml:space="preserve">
+    <value>फार्मेसी संख्या</value>
+  </data>
+  <data name="Physical_Stock" xml:space="preserve">
+    <value>भौतिक शेयर</value>
+  </data>
+  <data name="Purchase_Price" xml:space="preserve">
+    <value>खरीद मूल्य</value>
+  </data>
+  <data name="Purchase_Unit" xml:space="preserve">
+    <value>खरीद इकाई</value>
+  </data>
+  <data name="QOH" xml:space="preserve">
+    <value>हाथ पर मात्रा</value>
+  </data>
+  <data name="QTY" xml:space="preserve">
+    <value>मात्रा</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>मूल्य</value>
+  </data>
+  <data name="Rate_Per_Unit" xml:space="preserve">
+    <value>यूनिट प्रति दर</value>
+  </data>
+  <data name="ROL" xml:space="preserve">
+    <value>पुन: व्यवस्थित स्तर</value>
+  </data>
+  <data name="Sale_Unit" xml:space="preserve">
+    <value>बिक्री इकाई</value>
+  </data>
+  <data name="Service_Amount" xml:space="preserve">
+    <value>सेवा राशि</value>
+  </data>
+  <data name="Sl_No" xml:space="preserve">
+    <value>क्र। संख्या</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>स्रोत</value>
+  </data>
+  <data name="Stock_Difference" xml:space="preserve">
+    <value>स्टॉक अंतर</value>
+  </data>
+  <data name="Tax_" xml:space="preserve">
+    <value>कर %</value>
+  </data>
+  <data name="Total_Amount" xml:space="preserve">
+    <value>कुल रकम</value>
+  </data>
+  <data name="Total_Qty" xml:space="preserve">
+    <value>कुल मात्रा</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>इकाई</value>
+  </data>
+  <data name="Unit_Purchase_Price" xml:space="preserve">
+    <value>यूनिट खरीद मूल्य</value>
+  </data>
+  <data name="All_Centers" xml:space="preserve">
+    <value>सभी केंद्र</value>
+  </data>
+  <data name="Consolidated_OP_Billing_Report" xml:space="preserve">
+    <value>समेकित ओपी बिलिंग रिपोर्ट</value>
+  </data>
+  <data name="for_" xml:space="preserve">
+    <value>के लिये</value>
+  </data>
+  <data name="of" xml:space="preserve">
+    <value>में</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>पेज</value>
+  </data>
+  <data name="Pharmacist" xml:space="preserve">
+    <value>फार्मासिस्ट</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>दिनांक</value>
+  </data>
+  <data name="Service_Name" xml:space="preserve">
+    <value>सेवा</value>
+  </data>
+  <data name="OP_Due_Collection" xml:space="preserve">
+    <value>ओपी बकाया संग्रहण</value>
+  </data>
+  <data name="Due_Paid_Amount" xml:space="preserve">
+    <value>बकाया भरी गई राशि</value>
+  </data>
+  <data name="Bill_Amount" xml:space="preserve">
+    <value>बिल राशि</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>से</value>
+  </data>
+  <data name="Reference_Sheet_No" xml:space="preserve">
+    <value>निर्देश पत्र का संख्या</value>
+  </data>
+  <data name="Stock_Taking_Date" xml:space="preserve">
+    <value>स्टाक लेने का दिनाँक</value>
+  </data>
+  <data name="Stock_Taking_No" xml:space="preserve">
+    <value>स्टाक लेने का नंबर </value>
+  </data>
+  <data name="Stock_Taking_Report" xml:space="preserve">
+    <value>स्टॉक लेने की रिपोर्ट</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>उपयोगकर्ता का नाम</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>से</value>
+  </data>
+  <data name="END_OF_REPORT" xml:space="preserve">
+    <value>रिपोर्ट का अंत</value>
+  </data>
+  <data name="Normal_Reference_Range1" xml:space="preserve">
+    <value>सामान्य संदर्भ श्रेणी</value>
+  </data>
+  <data name="Remarks" xml:space="preserve">
+    <value>टिप्पणियों</value>
+  </data>
+  <data name="Result1" xml:space="preserve">
+    <value>परिणाम</value>
+  </data>
+  <data name="Result_Date" xml:space="preserve">
+    <value>परिणाम दिनांक</value>
+  </data>
+  <data name="Result_No" xml:space="preserve">
+    <value>परिणाम संख्या</value>
+  </data>
+  <data name="ROLE_DESC" xml:space="preserve">
+    <value>भूमिका डीईएससी</value>
+  </data>
+  <data name="Sample_No" xml:space="preserve">
+    <value>नमूने की संख्या</value>
+  </data>
+  <data name="SERVICESUBGRP_NAME" xml:space="preserve">
+    <value>सेवा उप जीरो नाम</value>
+  </data>
+  <data name="SERVICE_NAME1" xml:space="preserve">
+    <value>सेवा का नाम</value>
+  </data>
+  <data name="Test_Description1" xml:space="preserve">
+    <value>विवरण परीक्षण</value>
+  </data>
+  <data name="Units1" xml:space="preserve">
+    <value>इकाइयों</value>
+  </data>
+</root>
