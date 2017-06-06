@@ -16,8 +16,8 @@ namespace FingerPrintAPI
         //Install-Package Newtonsoft.Json
         static void Main(string[] args)
         {
-            //MyMethod();
             Retrieve();
+            //MyMethod();
             //Task.Run(() => CallAPIAsync());
             Console.Read();
         }
